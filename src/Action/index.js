@@ -2,15 +2,13 @@
 
 const increment = () =>{
     return {
-        type:'INCREMENT',
-        value:'action'
+        type:'INCREMENT'
     }
 };
 
 const decrement = () =>{
     return {
-        type:'DECREMENT',
-        value:'action'
+        type:'DECREMENT'
     }
 };
 

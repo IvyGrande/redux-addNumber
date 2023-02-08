@@ -1,5 +1,42 @@
 import {createStore} from "redux";
-import {Reducer} from "../Reducer";
+import counter from "../Reducer";
 
 
-export const store = createStore(Reducer);
+const store = createStore(counter);
+
+export default store;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import {createStore} from "redux";
+// import {Reducer} from "../Reducer";
+//
+//
+// export const store = createStore(Reducer);
